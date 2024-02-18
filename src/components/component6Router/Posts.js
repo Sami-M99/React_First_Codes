@@ -25,6 +25,9 @@ export default function Posts(){
                         </h2>
                     </Link>);
                 })}
+
+            <h4>If you try to go to wrong path, Like =&gt; http://localhost:3000/PostsErrrror you will get the Not Founf Page</h4>
+            <h4>If you try to go to wrong path, Like =&gt; http://localhost:3000/Posts/5 it will show not found post</h4>
         </div>
     );
 }
