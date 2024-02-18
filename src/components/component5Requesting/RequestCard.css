@@ -1,0 +1,67 @@
+.card {
+    margin:30px 0;
+}
+
+form {
+    background-color: #200171;
+    color: white;
+    margin: auto;
+    width: 700px;
+    padding: 20px 15px;
+    text-align: center;
+    font-family: cursive;
+    border-radius: 15px;
+}
+
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 2px 0 10px ;
+    height: 25px;
+}
+
+.disabled, .abled {
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.disabled {
+    background-color: gray;
+}
+
+.abled {
+    background-color: #b900a4;
+    cursor: pointer;
+}
+
+.alert{
+    background-color: rgb(41 40 40 / 80%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-family: cursive;
+}
+
+.alertContent {
+    background-color: wheat;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 70px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 6px 2px #939090;
+}
+
+h1 {
+    font-size: 30px;
+}

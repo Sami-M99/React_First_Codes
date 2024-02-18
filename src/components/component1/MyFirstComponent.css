@@ -1,0 +1,18 @@
+.mainContainer {
+    display: flex;
+}
+
+.mainContainer .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.mainContainer .cards .box {
+    background-color: #ccc;
+    margin: 10px;
+    padding: 20px 40px;
+    font-size: 18px;
+}
