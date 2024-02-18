@@ -1,5 +1,6 @@
-# Getting Started with Create React App
+You can see the web page from [here](https://sami-m99.github.io/React_First_Codes/).
 
+# Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
